@@ -1,0 +1,33 @@
+name: finite-verification
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Hashes and unchanged baseline
+        run: |
+          python verify_hashes.py
+          python verify_baseline.py
+      - name: Exact replay and semantic tests
+        run: |
+          python replay.py
+          python independent_replay.py
+          python -m unittest -v test_nonvacuous
+          python -O replay.py
+          python -O independent_replay.py
+          python -O -m unittest -v test_nonvacuous
+      - name: Defined and historical mutation controls
+        run: |
+          python run_mutations.py --output replay_output/mutations
+          python historical_mutants.py --output replay_output/historical-mutants

@@ -1,0 +1,62 @@
+{
+  "current_derivative_pin": "97bacb41f06fbecfc4029acc716620d51019318f",
+  "derivative_new_file_read": {
+    "git_blob_sha1": "aaf02c8ba24c434c63d946d315d1022477b17213",
+    "path": "collaboration/opus/opus_work/s11/descent_probe.py",
+    "repository": "cjnott1999/barnette-conjecture",
+    "scope": "Read whole file; not run, adapted or copied."
+  },
+  "equivalent_nonvacuous_executable_located": false,
+  "files": [
+    {
+      "git_blob_sha1": "01dd9e0c56b84f77c2051379e1202821bc2164cd",
+      "path": "preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/paper.tex",
+      "ranges": [
+        [
+          210,
+          260
+        ],
+        [
+          350,
+          515
+        ]
+      ]
+    },
+    {
+      "git_blob_sha1": "eea928c0019bd2e4b6faf3ab56a9acb39b992bc6",
+      "path": "lean/OAI/Combinatorics/Hamiltonian/TriangleSystem.lean",
+      "ranges": [
+        [
+          1,
+          142
+        ]
+      ]
+    },
+    {
+      "git_blob_sha1": "d39e19f0e53942f7370e91329fd58b158a6eef8b",
+      "path": "lean/OAI/Combinatorics/Hamiltonian/CycleReversal.lean",
+      "ranges": [
+        [
+          120,
+          275
+        ]
+      ]
+    },
+    {
+      "git_blob_sha1": "edeacc4405c2bf3306ce9727db5c6db53fdc3a18",
+      "path": "lean/OAI/Combinatorics/Hamiltonian/PairPhases.lean",
+      "ranges": [
+        [
+          1,
+          118
+        ]
+      ]
+    }
+  ],
+  "method": "GitHub connector read; Git blob SHA-1 identifiers are not raw-file SHA-256s",
+  "novelty_established": false,
+  "pin": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "raw_files_bundled": false,
+  "repository": "openai/math",
+  "schema": "family180-followup-source-reads-v1"
+}

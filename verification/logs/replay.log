@@ -1,0 +1,203 @@
+$ python3 replay.py
+{
+  "independent": {
+    "D_group_cycle_counts": {
+      "1": 1,
+      "3": 1
+    },
+    "bounded_spoke_faces": 7,
+    "candidate_assignments_examined": 1728,
+    "method": "exact rational geometry + Cartesian states + edge-subset cycles",
+    "nonincident_segment_pair_tests": 309,
+    "ordered_disjoint_pairs": 10,
+    "projected_coordinates": {
+      "0": [
+        [
+          -5,
+          7
+        ],
+        [
+          -8,
+          7
+        ]
+      ],
+      "1": [
+        [
+          -8,
+          7
+        ],
+        [
+          -5,
+          7
+        ]
+      ],
+      "10": [
+        [
+          -5,
+          9
+        ],
+        [
+          -8,
+          9
+        ]
+      ],
+      "11": [
+        [
+          -2,
+          3
+        ],
+        [
+          -16,
+          15
+        ]
+      ],
+      "2": [
+        [
+          -8,
+          7
+        ],
+        [
+          -8,
+          7
+        ]
+      ],
+      "3": [
+        [
+          -3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "4": [
+        [
+          0,
+          1
+        ],
+        [
+          -3,
+          1
+        ]
+      ],
+      "5": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "6": [
+        [
+          -14,
+          9
+        ],
+        [
+          -5,
+          9
+        ]
+      ],
+      "7": [
+        [
+          -19,
+          15
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "8": [
+        [
+          -8,
+          9
+        ],
+        [
+          -14,
+          9
+        ]
+      ],
+      "9": [
+        [
+          -16,
+          15
+        ],
+        [
+          -19,
+          15
+        ]
+      ]
+    },
+    "qualifying_cyclic_state_ids": [
+      8
+    ],
+    "reversal_orbits": [
+      {
+        "orbits": [
+          [
+            0,
+            4
+          ]
+        ],
+        "partner_ids": [
+          0,
+          4
+        ],
+        "s_id": 8
+      }
+    ],
+    "reversal_rows": 2,
+    "spoke_circulations": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -7
+    ],
+    "states": 9,
+    "status": "PASS"
+  },
+  "orbit_validation": {
+    "partner_rows_checked": 2,
+    "qualifying_fibers": 1,
+    "status": "PASS",
+    "two_element_orbits": 1
+  },
+  "primary": {
+    "black_faces": 10,
+    "bounded_spoke_faces": 7,
+    "c_min": 1,
+    "cyclic_Q_states": 1,
+    "cyclic_Q_states_with_partners": 1,
+    "edges": 30,
+    "first_coefficient": [
+      0,
+      -4
+    ],
+    "group_cycle_counts": {
+      "1": 1,
+      "3": 1
+    },
+    "involution_fixture_coverage": "nonvacuous",
+    "local_choice_space": 1728,
+    "nonroots": 9,
+    "ordered_disjoint_pairs": 10,
+    "reversal_checks": 2,
+    "separating_triangles": 0,
+    "spoke_edges": 27,
+    "spoke_vertices": 21,
+    "states": 9,
+    "triangles": 20,
+    "undirected_groups": 2,
+    "vertices": 12
+  }
+}
+
+EXIT 0

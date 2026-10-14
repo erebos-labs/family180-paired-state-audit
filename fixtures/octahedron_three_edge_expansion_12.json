@@ -1,0 +1,358 @@
+{
+  "construction": {
+    "coordinates_scale": 3,
+    "expanded_paths": [
+      [
+        3,
+        6,
+        7,
+        1
+      ],
+      [
+        4,
+        8,
+        9,
+        2
+      ],
+      [
+        5,
+        10,
+        11,
+        0
+      ]
+    ],
+    "integer_coordinates": {
+      "0": [
+        3,
+        0,
+        0
+      ],
+      "1": [
+        0,
+        3,
+        0
+      ],
+      "10": [
+        1,
+        0,
+        -2
+      ],
+      "11": [
+        2,
+        0,
+        -1
+      ],
+      "2": [
+        0,
+        0,
+        3
+      ],
+      "3": [
+        -3,
+        0,
+        0
+      ],
+      "4": [
+        0,
+        -3,
+        0
+      ],
+      "5": [
+        0,
+        0,
+        -3
+      ],
+      "6": [
+        -2,
+        1,
+        0
+      ],
+      "7": [
+        -1,
+        2,
+        0
+      ],
+      "8": [
+        0,
+        -2,
+        1
+      ],
+      "9": [
+        0,
+        -1,
+        2
+      ]
+    },
+    "old_antipodal_pairs": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ]
+  },
+  "faces": [
+    {
+      "color": "black",
+      "vertices": [
+        3,
+        5,
+        4
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        0,
+        4,
+        11
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        0,
+        8,
+        4
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        0,
+        9,
+        8
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        0,
+        11,
+        1
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        1,
+        10,
+        5
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        1,
+        11,
+        10
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        2,
+        3,
+        9
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        2,
+        6,
+        3
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        2,
+        7,
+        6
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        3,
+        6,
+        5
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        3,
+        8,
+        9
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        4,
+        5,
+        10
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        4,
+        10,
+        11
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "name": "octahedron_three_edge_expansion_12",
+  "outer_face": [
+    3,
+    5,
+    4
+  ],
+  "rotation": {
+    "0": [
+      1,
+      2,
+      9,
+      8,
+      4,
+      11
+    ],
+    "1": [
+      0,
+      11,
+      10,
+      5,
+      7,
+      2
+    ],
+    "10": [
+      1,
+      11,
+      4,
+      5
+    ],
+    "11": [
+      0,
+      4,
+      10,
+      1
+    ],
+    "2": [
+      0,
+      1,
+      7,
+      6,
+      3,
+      9
+    ],
+    "3": [
+      2,
+      6,
+      5,
+      4,
+      8,
+      9
+    ],
+    "4": [
+      0,
+      8,
+      3,
+      5,
+      10,
+      11
+    ],
+    "5": [
+      1,
+      10,
+      4,
+      3,
+      6,
+      7
+    ],
+    "6": [
+      2,
+      7,
+      5,
+      3
+    ],
+    "7": [
+      1,
+      5,
+      6,
+      2
+    ],
+    "8": [
+      0,
+      9,
+      3,
+      4
+    ],
+    "9": [
+      0,
+      2,
+      3,
+      8
+    ]
+  },
+  "rotation_convention": "counterclockwise",
+  "schema": "family180-fixture-v1",
+  "size_cap": 20
+}

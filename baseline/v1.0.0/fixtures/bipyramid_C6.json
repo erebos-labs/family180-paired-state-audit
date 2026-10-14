@@ -1,0 +1,163 @@
+{
+  "faces": [
+    {
+      "color": "black",
+      "vertices": [
+        6,
+        0,
+        1
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        6,
+        1,
+        2
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        6,
+        2,
+        3
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        6,
+        3,
+        4
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        6,
+        4,
+        5
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        6,
+        5,
+        0
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        7,
+        1,
+        0
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        7,
+        2,
+        1
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        7,
+        3,
+        2
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        7,
+        4,
+        3
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        7,
+        5,
+        4
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        7,
+        0,
+        5
+      ]
+    }
+  ],
+  "name": "bipyramid_C6",
+  "outer_face": [
+    6,
+    0,
+    1
+  ],
+  "rotation": {
+    "0": [
+      1,
+      6,
+      5,
+      7
+    ],
+    "1": [
+      0,
+      7,
+      2,
+      6
+    ],
+    "2": [
+      1,
+      7,
+      3,
+      6
+    ],
+    "3": [
+      2,
+      7,
+      4,
+      6
+    ],
+    "4": [
+      3,
+      7,
+      5,
+      6
+    ],
+    "5": [
+      0,
+      6,
+      4,
+      7
+    ],
+    "6": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "7": [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "rotation_convention": "counterclockwise",
+  "schema": "family180-fixture-v1",
+  "size_cap": 14
+}

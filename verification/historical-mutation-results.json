@@ -1,0 +1,72 @@
+[
+  {
+    "mutant": "disable_involution",
+    "replace": "cyclic_states = [s for s in states if selected_cycle[s] is not None]",
+    "with": "cyclic_states = []  # AUDIT MUTANT: discard every cyclic state",
+    "syntax_valid": true,
+    "status": "KILLED_BY_SEMANTIC_TESTS",
+    "runs": [
+      {
+        "mode": "tests",
+        "exit": 1,
+        "failing_tests": [
+          "test_02_primary_semantic_replay",
+          "test_04_nonvacuous_fiber_and_complete_orbits"
+        ]
+      },
+      {
+        "mode": "replay",
+        "exit": 1,
+        "failing_tests": []
+      }
+    ]
+  },
+  {
+    "mutant": "discard_previous_cycle_factors",
+    "replace": "expanded = exponential_product(expanded, factor)",
+    "with": "expanded = exponential_product({0: ONE}, factor)  # AUDIT MUTANT: forget earlier cycles",
+    "syntax_valid": true,
+    "status": "KILLED_BY_SEMANTIC_TESTS",
+    "runs": [
+      {
+        "mode": "tests",
+        "exit": 1,
+        "failing_tests": [
+          "test_02_primary_semantic_replay",
+          "test_04_nonvacuous_fiber_and_complete_orbits",
+          "test_07_geometric_three_cycle_orientation_group",
+          "test_08_global_exact_sum"
+        ]
+      },
+      {
+        "mode": "replay",
+        "exit": 1,
+        "failing_tests": []
+      }
+    ]
+  },
+  {
+    "mutant": "wrong_reversal_J_check",
+    "replace": "require(delta_j in (-2, 2), \"reversal J change\")",
+    "with": "require(delta_j == 0, \"reversal J change\")  # AUDIT MUTANT: invalid requirement",
+    "syntax_valid": true,
+    "status": "KILLED_BY_SEMANTIC_TESTS",
+    "runs": [
+      {
+        "mode": "tests",
+        "exit": 1,
+        "failing_tests": [
+          "test_02_primary_semantic_replay",
+          "test_04_nonvacuous_fiber_and_complete_orbits",
+          "test_07_geometric_three_cycle_orientation_group",
+          "test_08_global_exact_sum"
+        ]
+      },
+      {
+        "mode": "replay",
+        "exit": 1,
+        "failing_tests": []
+      }
+    ]
+  }
+]

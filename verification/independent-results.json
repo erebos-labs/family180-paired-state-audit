@@ -1,0 +1,29 @@
+[
+  {
+    "fixture": "octahedron_three_edge_expansion_12",
+    "states": 9,
+    "pairs": 10,
+    "cyclic_Q": 1,
+    "groups": 2,
+    "Z": {
+      "3": [
+        0,
+        -3
+      ],
+      "2": [
+        0,
+        3
+      ],
+      "1": [
+        0,
+        -1
+      ],
+      "0": [
+        0,
+        1
+      ]
+    },
+    "leading": "[Fraction(0, 1), Fraction(-4, 1)]",
+    "status": "PASS"
+  }
+]

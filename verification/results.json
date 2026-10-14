@@ -1,0 +1,104 @@
+{
+  "platform": "macOS arm64",
+  "python": "CPython 3.14.7",
+  "baseline_tests": 27,
+  "new_tests": 32,
+  "defined_mutants_detected": 12,
+  "exact_historical_mutants_detected": 3,
+  "runs": [
+    {
+      "name": "hashes",
+      "command": [
+        "python3",
+        "verify_hashes.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "baseline",
+      "command": [
+        "python3",
+        "verify_baseline.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "replay",
+      "command": [
+        "python3",
+        "replay.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "independent",
+      "command": [
+        "python3",
+        "independent_replay.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "test_nonvacuous"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "replay-optimized",
+      "command": [
+        "python3",
+        "-O",
+        "replay.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "independent-optimized",
+      "command": [
+        "python3",
+        "-O",
+        "independent_replay.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "tests-optimized",
+      "command": [
+        "python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_nonvacuous"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "mutations",
+      "command": [
+        "python3",
+        "run_mutations.py",
+        "--output",
+        "replay_output/mutations"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "historical-mutants",
+      "command": [
+        "python3",
+        "historical_mutants.py",
+        "--output",
+        "replay_output/historical-mutants"
+      ],
+      "exit": 0
+    }
+  ],
+  "log_normalization": "Only local traceback workspace paths are normalized; mathematical values and outcomes are unchanged."
+}

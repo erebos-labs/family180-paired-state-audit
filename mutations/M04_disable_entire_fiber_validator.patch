@@ -1,0 +1,10 @@
+--- involution.py
++++ M04_disable_entire_fiber_validator/involution.py
+@@ -46,6 +46,7 @@
+     precise data mutations. A metadata mismatch is not repaired or ignored.
+     This function intentionally does not call make_certificate or c.audit.
+     """
++    return {'qualifying_fibers':1,'partner_rows_checked':2,'two_element_orbits':1,'status':'PASS'}
+     c.require(certificate.get('schema')=='family180-reversal-fibers-v1','fiber schema')
+     c.require(certificate.get('fixture')==fixture['name'] and certificate.get('upstream_pin')==c.PIN,'fiber provenance')
+     T=c.Triangulation(fixture)

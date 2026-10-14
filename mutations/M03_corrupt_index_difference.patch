@@ -1,0 +1,11 @@
+--- checker.py
++++ M03_corrupt_index_difference/checker.py
+@@ -532,7 +532,7 @@
+             for j in changed:
+                 u = third[j]
+                 require(T.delta[u, s[j]] - T.delta[r[j], s[j]] == 2*T.delta[r[j], u], "local reversal sign identity")
+-            delta_j = T.index(rr, s) - T.index(r, s)
++            delta_j = 0  # injected corrupt index difference
+             require(delta_j in (-2, 2), "reversal J change")
+             require(phase(T.index(rr, s)) == scale(phase(T.index(r, s)), -1), "reversal phase does not negate")
+             images.append(rr)

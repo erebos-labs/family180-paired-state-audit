@@ -1,0 +1,20 @@
+--- checker.py
++++ M11_truncate_cycle_decomposition/checker.py
+@@ -497,7 +497,7 @@
+         require(T.state_valid(r) and T.state_valid(s), "pair state validation")
+         D = tuple(sorted(edge(a, b) for a, b in zip(r, s)))
+         require(len(set(D)) == len(T.A), "pair repeats an undirected edge")
+-        cycles = cycle_union(T.X, D)
++        cycles = cycle_union(T.X, D)[:1]  # injected omitted cycles
+         nxt = dict(zip(r, s))
+         disk_records = []
+         for c in cycles:
+@@ -544,7 +544,7 @@
+     group_records, total_product_terms = [], []
+     cap = len(T.X) + 2
+     for D, members in sorted(groups.items()):
+-        cycles = cycle_union(T.X, D)
++        cycles = cycle_union(T.X, D)[:1]  # injected omitted cycles
+         cycle_records, orientation_assignments = [], []
+         factors = []
+         for c in cycles:

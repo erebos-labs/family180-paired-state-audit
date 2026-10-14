@@ -1,0 +1,11 @@
+--- involution.py
++++ M06_disable_weight_record_validation/involution.py
+@@ -98,7 +98,7 @@
+             c.require(c.phase(after)==c.scale(c.phase(before),-1),'actual phase negation')
+             c.require(row['second_state_before']==list(s) and row['second_state_after']==list(s),'second state unchanged')
+             weight=sum(weights[t,v] for t,v in zip(T.A,s))
+-            c.require(row['weight_before']==weight and row['weight_after']==weight,'fixed-state weight unchanged')
++            pass  # injected weight-record validation bypass
+             mapping[ids[r]]=ids[rr];checks+=1
+         c.require(set(mapping)==set(expected_partner_ids) and set(mapping.values())==set(expected_partner_ids),'fiber bijectivity')
+         c.require(all(mapping[mapping[r]]==r for r in mapping),'fiber involutivity')

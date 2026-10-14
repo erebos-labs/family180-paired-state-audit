@@ -1,0 +1,14 @@
+{
+  "publication_version": "1.1.0",
+  "input_archive_sha256": "78bf8c7d8e09560cd47046d5bb975b6438ccc3ae6d815ea634e504ed0dd1d385",
+  "input_archive_size": 179323,
+  "baseline_input_archive_sha256": "451210303f0a03c8dc384a3dcaafe92738b126b6f9d2d137fec385a44d18d86b",
+  "upstream_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "distribution": "Clean public repackaging; original ZIPs and private execution/development records are not distributed. Mathematical modules and certificates retain their verified source bytes except the documented relocation of independent_replay.py. Baseline source/data subset is byte-preserved.",
+  "adaptations": [
+    "Independent replay uses repository-relative inputs and ignored output directory.",
+    "Baseline replay uses byte-preserved source/data instead of the private original ZIP.",
+    "Test 32 verifies public baseline manifest and file hashes.",
+    "Public test logs are fresh executions; local traceback paths are normalized."
+  ]
+}

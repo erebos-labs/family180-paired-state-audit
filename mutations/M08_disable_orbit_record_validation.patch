@@ -1,0 +1,11 @@
+--- involution.py
++++ M08_disable_orbit_record_validation/involution.py
+@@ -103,7 +103,7 @@
+         c.require(set(mapping)==set(expected_partner_ids) and set(mapping.values())==set(expected_partner_ids),'fiber bijectivity')
+         c.require(all(mapping[mapping[r]]==r for r in mapping),'fiber involutivity')
+         orbits=sorted({tuple(sorted((r,image))) for r,image in mapping.items()})
+-        c.require(f['orbits']==[list(o) for o in orbits] and all(len(set(o))==2 for o in orbits),'complete two-element orbits')
++        pass  # injected orbit-record validation bypass
+         c.require(len(orbits)*2==len(expected_partner_ids),'orbit partition coverage')
+         total=c.exponential_sum([(c.phase(T.index(r,s)),sum(weights[t,v] for t,v in zip(T.A,s))) for r in partners[s]])
+         c.require(total=={} and f['fixed_state_exponential_sum']==c.serialize_exp(total),'exact fixed-state cancellation')

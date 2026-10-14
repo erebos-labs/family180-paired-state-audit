@@ -1,0 +1,11 @@
+--- involution.py
++++ M07_disable_index_change_validation/involution.py
+@@ -93,7 +93,7 @@
+             c.require(row['oriented_cycle']==list(oriented) and row['disk']==disk,'oriented cycle and disk record')
+             before=T.index(r,s);after=T.index(rr,s)
+             c.require(row['J_before']==before and row['J_after']==after,'index values recomputed')
+-            c.require(after-before in (-2,2) and row['J_change']==after-before,'index change plus or minus two')
++            pass  # injected index-change validation bypass
+             c.require(row['phase_before']==list(c.phase(before)) and row['phase_after']==list(c.phase(after)),'recorded phases recomputed')
+             c.require(c.phase(after)==c.scale(c.phase(before),-1),'actual phase negation')
+             c.require(row['second_state_before']==list(s) and row['second_state_after']==list(s),'second state unchanged')

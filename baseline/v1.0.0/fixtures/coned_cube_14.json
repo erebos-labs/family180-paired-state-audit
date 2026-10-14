@@ -1,0 +1,307 @@
+{
+  "faces": [
+    {
+      "color": "black",
+      "vertices": [
+        8,
+        0,
+        1
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        8,
+        1,
+        3
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        8,
+        3,
+        2
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        8,
+        2,
+        0
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        9,
+        4,
+        6
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        9,
+        6,
+        7
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        9,
+        7,
+        5
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        9,
+        5,
+        4
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        10,
+        0,
+        4
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        10,
+        4,
+        5
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        10,
+        5,
+        1
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        10,
+        1,
+        0
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        11,
+        2,
+        3
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        11,
+        3,
+        7
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        11,
+        7,
+        6
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        11,
+        6,
+        2
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        12,
+        0,
+        2
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        12,
+        2,
+        6
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        12,
+        6,
+        4
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        12,
+        4,
+        0
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        13,
+        1,
+        5
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        13,
+        5,
+        7
+      ]
+    },
+    {
+      "color": "white",
+      "vertices": [
+        13,
+        7,
+        3
+      ]
+    },
+    {
+      "color": "black",
+      "vertices": [
+        13,
+        3,
+        1
+      ]
+    }
+  ],
+  "name": "coned_cube_14",
+  "outer_face": [
+    8,
+    0,
+    1
+  ],
+  "rotation": {
+    "0": [
+      1,
+      8,
+      2,
+      12,
+      4,
+      10
+    ],
+    "1": [
+      0,
+      10,
+      5,
+      13,
+      3,
+      8
+    ],
+    "10": [
+      0,
+      4,
+      5,
+      1
+    ],
+    "11": [
+      2,
+      3,
+      7,
+      6
+    ],
+    "12": [
+      0,
+      2,
+      6,
+      4
+    ],
+    "13": [
+      1,
+      5,
+      7,
+      3
+    ],
+    "2": [
+      0,
+      8,
+      3,
+      11,
+      6,
+      12
+    ],
+    "3": [
+      1,
+      13,
+      7,
+      11,
+      2,
+      8
+    ],
+    "4": [
+      0,
+      12,
+      6,
+      9,
+      5,
+      10
+    ],
+    "5": [
+      1,
+      10,
+      4,
+      9,
+      7,
+      13
+    ],
+    "6": [
+      2,
+      11,
+      7,
+      9,
+      4,
+      12
+    ],
+    "7": [
+      3,
+      13,
+      5,
+      9,
+      6,
+      11
+    ],
+    "8": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "9": [
+      4,
+      6,
+      7,
+      5
+    ]
+  },
+  "rotation_convention": "counterclockwise",
+  "schema": "family180-fixture-v1",
+  "size_cap": 14
+}

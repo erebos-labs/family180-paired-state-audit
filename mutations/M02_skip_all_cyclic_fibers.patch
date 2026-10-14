@@ -1,0 +1,11 @@
+--- checker.py
++++ M02_skip_all_cyclic_fibers/checker.py
+@@ -511,7 +511,7 @@
+                              "D": [list(e) for e in D], "cycles": disk_records})
+         groups[D].append(j)
+     reversals = []
+-    cyclic_states = [s for s in states if selected_cycle[s] is not None]
++    cyclic_states = []  # injected coverage bypass
+     for s in cyclic_states:
+         cycle = selected_cycle[s]
+         cycle_edges = {edge(*d) for d in darts(cycle)}

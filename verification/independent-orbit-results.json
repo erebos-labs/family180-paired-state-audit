@@ -1,0 +1,230 @@
+{
+  "fibers": [
+    {
+      "s_id": 8,
+      "s_values": [
+        9,
+        0,
+        11,
+        7,
+        1,
+        2,
+        8,
+        10,
+        6
+      ],
+      "cycle": [
+        0,
+        1,
+        2
+      ],
+      "partner_ids": [
+        0,
+        4
+      ],
+      "orbits": [
+        [
+          0,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "r_id": 0,
+          "r_values": [
+            0,
+            8,
+            1,
+            2,
+            10,
+            6,
+            9,
+            11,
+            7
+          ],
+          "image_id": 4,
+          "image_values": [
+            2,
+            8,
+            0,
+            1,
+            10,
+            6,
+            9,
+            11,
+            7
+          ],
+          "second_state_before": [
+            9,
+            0,
+            11,
+            7,
+            1,
+            2,
+            8,
+            10,
+            6
+          ],
+          "second_state_after": [
+            9,
+            0,
+            11,
+            7,
+            1,
+            2,
+            8,
+            10,
+            6
+          ],
+          "J_before": -3,
+          "J_after": -1,
+          "J_change": 2,
+          "phase_before": [
+            0,
+            1
+          ],
+          "phase_after": [
+            0,
+            -1
+          ],
+          "weight_before": 4,
+          "weight_after": 4,
+          "oriented_cycle": [
+            0,
+            2,
+            1
+          ],
+          "disk": {
+            "vertices": [
+              0,
+              2,
+              1
+            ],
+            "counterclockwise": false,
+            "inside_faces": [
+              0
+            ],
+            "I": 0,
+            "B": 0,
+            "W": 1,
+            "h": 3,
+            "l": 0,
+            "delta_sum": 3,
+            "supplier_faces": [
+              1,
+              7,
+              5
+            ]
+          }
+        },
+        {
+          "r_id": 4,
+          "r_values": [
+            2,
+            8,
+            0,
+            1,
+            10,
+            6,
+            9,
+            11,
+            7
+          ],
+          "image_id": 0,
+          "image_values": [
+            0,
+            8,
+            1,
+            2,
+            10,
+            6,
+            9,
+            11,
+            7
+          ],
+          "second_state_before": [
+            9,
+            0,
+            11,
+            7,
+            1,
+            2,
+            8,
+            10,
+            6
+          ],
+          "second_state_after": [
+            9,
+            0,
+            11,
+            7,
+            1,
+            2,
+            8,
+            10,
+            6
+          ],
+          "J_before": -1,
+          "J_after": -3,
+          "J_change": -2,
+          "phase_before": [
+            0,
+            -1
+          ],
+          "phase_after": [
+            0,
+            1
+          ],
+          "weight_before": 4,
+          "weight_after": 4,
+          "oriented_cycle": [
+            0,
+            1,
+            2
+          ],
+          "disk": {
+            "vertices": [
+              0,
+              1,
+              2
+            ],
+            "counterclockwise": true,
+            "inside_faces": [
+              0
+            ],
+            "I": 0,
+            "B": 0,
+            "W": 1,
+            "h": 3,
+            "l": 0,
+            "delta_sum": -3,
+            "supplier_faces": [
+              5,
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "fixed_state_exponential_sum": []
+    }
+  ],
+  "transitions": [
+    {
+      "s": 8,
+      "r": 0,
+      "image": 4,
+      "J_before": -3,
+      "J_after": -1,
+      "omega": 4
+    },
+    {
+      "s": 8,
+      "r": 4,
+      "image": 0,
+      "J_before": -1,
+      "J_after": -3,
+      "omega": 4
+    }
+  ]
+}

@@ -1,0 +1,1255 @@
+{
+  "A": [
+    1,
+    5,
+    6,
+    9,
+    10
+  ],
+  "X": [
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "Z": [
+    {
+      "coefficient": [
+        0,
+        1
+      ],
+      "exponent": 0
+    },
+    {
+      "coefficient": [
+        0,
+        -1
+      ],
+      "exponent": 2
+    }
+  ],
+  "checker_version": "1.0.0",
+  "delta": [
+    {
+      "dart": [
+        0,
+        1
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        0,
+        5
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        0,
+        6
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        0,
+        7
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        1,
+        0
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        1,
+        2
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        1,
+        6
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        1,
+        7
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        2,
+        1
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        2,
+        3
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        2,
+        6
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        2,
+        7
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        3,
+        2
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        3,
+        4
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        3,
+        6
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        3,
+        7
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        4,
+        3
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        4,
+        5
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        4,
+        6
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        4,
+        7
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        5,
+        0
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        5,
+        4
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        5,
+        6
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        5,
+        7
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        6,
+        0
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        6,
+        1
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        6,
+        2
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        6,
+        3
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        6,
+        4
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        6,
+        5
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        7,
+        0
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        7,
+        1
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        7,
+        2
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        7,
+        3
+      ],
+      "sign": -1
+    },
+    {
+      "dart": [
+        7,
+        4
+      ],
+      "sign": 1
+    },
+    {
+      "dart": [
+        7,
+        5
+      ],
+      "sign": -1
+    }
+  ],
+  "faces": [
+    {
+      "color": 0,
+      "id": 0,
+      "vertices": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "color": 0,
+      "id": 1,
+      "vertices": [
+        0,
+        5,
+        7
+      ]
+    },
+    {
+      "color": 1,
+      "id": 2,
+      "vertices": [
+        0,
+        6,
+        5
+      ]
+    },
+    {
+      "color": 1,
+      "id": 3,
+      "vertices": [
+        0,
+        7,
+        1
+      ]
+    },
+    {
+      "color": 1,
+      "id": 4,
+      "vertices": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "color": 0,
+      "id": 5,
+      "vertices": [
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "color": 0,
+      "id": 6,
+      "vertices": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "color": 1,
+      "id": 7,
+      "vertices": [
+        2,
+        7,
+        3
+      ]
+    },
+    {
+      "color": 1,
+      "id": 8,
+      "vertices": [
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "color": 0,
+      "id": 9,
+      "vertices": [
+        3,
+        7,
+        4
+      ]
+    },
+    {
+      "color": 0,
+      "id": 10,
+      "vertices": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "color": 1,
+      "id": 11,
+      "vertices": [
+        4,
+        7,
+        5
+      ]
+    }
+  ],
+  "fixture": "bipyramid_C6",
+  "groups": [
+    {
+      "D": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "cycle_count": 1,
+      "cycles": [
+        {
+          "L_minus": 0,
+          "L_plus": 2,
+          "ccw_vertices": [
+            2,
+            7,
+            5,
+            4,
+            3
+          ],
+          "gap": 2,
+          "inside_spoke_faces": [
+            1,
+            3
+          ],
+          "spoke_cycle": [
+            2,
+            9,
+            7,
+            8,
+            5,
+            12,
+            4,
+            11,
+            3,
+            10
+          ],
+          "supplier_faces": [
+            5,
+            1,
+            10,
+            9,
+            6
+          ]
+        }
+      ],
+      "exponential_sum": [
+        {
+          "coefficient": [
+            0,
+            1
+          ],
+          "exponent": 0
+        },
+        {
+          "coefficient": [
+            0,
+            -1
+          ],
+          "exponent": 2
+        }
+      ],
+      "leading_coefficient": [
+        0,
+        -2
+      ],
+      "member_pairs": [
+        0,
+        1
+      ],
+      "taylor": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -4,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -4,
+            15
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -4,
+            45
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            -8,
+            315
+          ]
+        ]
+      ]
+    }
+  ],
+  "incidences": [
+    {
+      "face": 1,
+      "nonroot_vertices": [
+        5,
+        7
+      ]
+    },
+    {
+      "face": 5,
+      "nonroot_vertices": [
+        2,
+        7
+      ]
+    },
+    {
+      "face": 6,
+      "nonroot_vertices": [
+        2,
+        3
+      ]
+    },
+    {
+      "face": 9,
+      "nonroot_vertices": [
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "face": 10,
+      "nonroot_vertices": [
+        4,
+        5
+      ]
+    }
+  ],
+  "outer_face_id": 0,
+  "pairs": [
+    {
+      "D": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "J": 1,
+      "cycles": [
+        {
+          "B": 1,
+          "I": 0,
+          "W": 2,
+          "counterclockwise": false,
+          "delta_sum": 3,
+          "h": 5,
+          "inside_faces": [
+            7,
+            9,
+            11
+          ],
+          "l": 1,
+          "supplier_faces": [
+            6,
+            9,
+            10,
+            1,
+            5
+          ],
+          "vertices": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "id": 0,
+      "omega_s": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "r": 1,
+      "s": 2
+    },
+    {
+      "D": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "J": -1,
+      "cycles": [
+        {
+          "B": 1,
+          "I": 0,
+          "W": 2,
+          "counterclockwise": true,
+          "delta_sum": -3,
+          "h": 5,
+          "inside_faces": [
+            7,
+            9,
+            11
+          ],
+          "l": 1,
+          "supplier_faces": [
+            5,
+            1,
+            10,
+            9,
+            6
+          ],
+          "vertices": [
+            2,
+            7,
+            5,
+            4,
+            3
+          ]
+        }
+      ],
+      "id": 1,
+      "omega_s": 2,
+      "phase": [
+        0,
+        -1
+      ],
+      "r": 2,
+      "s": 1
+    }
+  ],
+  "reversals": [],
+  "roots": [
+    0,
+    1,
+    6
+  ],
+  "schema": "family180-certificate-v1",
+  "spokes": {
+    "centers": [
+      {
+        "face": 1,
+        "vertex": 8
+      },
+      {
+        "face": 5,
+        "vertex": 9
+      },
+      {
+        "face": 6,
+        "vertex": 10
+      },
+      {
+        "face": 9,
+        "vertex": 11
+      },
+      {
+        "face": 10,
+        "vertex": 12
+      }
+    ],
+    "dual_unit_paths": [
+      {
+        "start_face": 1,
+        "steps": [
+          {
+            "dart": [
+              10,
+              2
+            ],
+            "from_face": 1,
+            "to_face": 0
+          }
+        ]
+      },
+      {
+        "start_face": 2,
+        "steps": [
+          {
+            "dart": [
+              12,
+              6
+            ],
+            "from_face": 2,
+            "to_face": 0
+          }
+        ]
+      },
+      {
+        "start_face": 3,
+        "steps": [
+          {
+            "dart": [
+              8,
+              5
+            ],
+            "from_face": 3,
+            "to_face": 0
+          }
+        ]
+      }
+    ],
+    "face_circulations": [
+      -3,
+      1,
+      1,
+      1
+    ],
+    "faces": [
+      [
+        0,
+        8,
+        7,
+        9,
+        1,
+        9,
+        2,
+        10,
+        6,
+        12,
+        5,
+        8
+      ],
+      [
+        2,
+        9,
+        7,
+        11,
+        3,
+        10
+      ],
+      [
+        3,
+        11,
+        4,
+        12,
+        6,
+        10
+      ],
+      [
+        4,
+        11,
+        7,
+        8,
+        5,
+        12
+      ]
+    ],
+    "outer_face": 0,
+    "rotation": {
+      "0": [
+        8
+      ],
+      "1": [
+        9
+      ],
+      "10": [
+        2,
+        3,
+        6
+      ],
+      "11": [
+        3,
+        7,
+        4
+      ],
+      "12": [
+        4,
+        5,
+        6
+      ],
+      "2": [
+        9,
+        10
+      ],
+      "3": [
+        11,
+        10
+      ],
+      "4": [
+        11,
+        12
+      ],
+      "5": [
+        12,
+        8
+      ],
+      "6": [
+        10,
+        12
+      ],
+      "7": [
+        8,
+        11,
+        9
+      ],
+      "8": [
+        0,
+        5,
+        7
+      ],
+      "9": [
+        1,
+        7,
+        2
+      ]
+    },
+    "weights": [
+      {
+        "face": 1,
+        "vertex": 0,
+        "weight": 0
+      },
+      {
+        "face": 1,
+        "vertex": 5,
+        "weight": 1
+      },
+      {
+        "face": 1,
+        "vertex": 7,
+        "weight": 0
+      },
+      {
+        "face": 5,
+        "vertex": 1,
+        "weight": 0
+      },
+      {
+        "face": 5,
+        "vertex": 2,
+        "weight": 0
+      },
+      {
+        "face": 5,
+        "vertex": 7,
+        "weight": 0
+      },
+      {
+        "face": 6,
+        "vertex": 2,
+        "weight": 1
+      },
+      {
+        "face": 6,
+        "vertex": 3,
+        "weight": 0
+      },
+      {
+        "face": 6,
+        "vertex": 6,
+        "weight": 0
+      },
+      {
+        "face": 9,
+        "vertex": 3,
+        "weight": 0
+      },
+      {
+        "face": 9,
+        "vertex": 4,
+        "weight": 0
+      },
+      {
+        "face": 9,
+        "vertex": 7,
+        "weight": 0
+      },
+      {
+        "face": 10,
+        "vertex": 4,
+        "weight": 0
+      },
+      {
+        "face": 10,
+        "vertex": 5,
+        "weight": 0
+      },
+      {
+        "face": 10,
+        "vertex": 6,
+        "weight": 1
+      }
+    ]
+  },
+  "states": [
+    {
+      "Q_components": [
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "Q_edges": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "chosen_cycle": null,
+      "id": 0,
+      "omega": 1,
+      "partner_count": 0,
+      "values": [
+        5,
+        2,
+        3,
+        7,
+        4
+      ]
+    },
+    {
+      "Q_components": [
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5,
+          6
+        ]
+      ],
+      "Q_edges": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "chosen_cycle": null,
+      "id": 1,
+      "omega": 2,
+      "partner_count": 1,
+      "values": [
+        5,
+        7,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "Q_components": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "Q_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "chosen_cycle": null,
+      "id": 2,
+      "omega": 0,
+      "partner_count": 1,
+      "values": [
+        7,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "summary": {
+    "black_faces": 6,
+    "bounded_spoke_faces": 3,
+    "c_min": 1,
+    "cyclic_Q_states": 0,
+    "cyclic_Q_states_with_partners": 0,
+    "edges": 18,
+    "first_coefficient": [
+      0,
+      -2
+    ],
+    "group_cycle_counts": {
+      "1": 1
+    },
+    "involution_fixture_coverage": "vacuous",
+    "local_choice_space": 48,
+    "nonroots": 5,
+    "ordered_disjoint_pairs": 2,
+    "reversal_checks": 0,
+    "separating_triangles": 0,
+    "spoke_edges": 15,
+    "spoke_vertices": 13,
+    "states": 3,
+    "triangles": 12,
+    "undirected_groups": 1,
+    "vertices": 8
+  },
+  "taylor": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -4,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -4,
+        15
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -4,
+        45
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        -8,
+        315
+      ]
+    ]
+  ],
+  "taylor_cap": 7,
+  "upstream_pin": "1581d4cbdd69a0faf34b2089614fe2a814316a6a"
+}

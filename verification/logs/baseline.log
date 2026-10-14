@@ -1,0 +1,44 @@
+$ python3 verify_baseline.py
+COMMAND: python3 verify_hashes.py
+PASS: 18 SHA-256 file hashes
+COMMAND: python3 checker.py
+{"black_faces": 4, "bounded_spoke_faces": 1, "c_min": 1, "cyclic_Q_states": 0, "cyclic_Q_states_with_partners": 0, "edges": 12, "first_coefficient": [0, -1], "fixture": "bipyramid_C4", "group_cycle_counts": {"1": 1}, "involution_fixture_coverage": "vacuous", "local_choice_space": 8, "nonroots": 3, "ordered_disjoint_pairs": 2, "reversal_checks": 0, "separating_triangles": 0, "spoke_edges": 9, "spoke_vertices": 9, "states": 2, "status": "PASS", "triangles": 8, "undirected_groups": 1, "vertices": 6}
+{"black_faces": 6, "bounded_spoke_faces": 3, "c_min": 1, "cyclic_Q_states": 0, "cyclic_Q_states_with_partners": 0, "edges": 18, "first_coefficient": [0, -2], "fixture": "bipyramid_C6", "group_cycle_counts": {"1": 1}, "involution_fixture_coverage": "vacuous", "local_choice_space": 48, "nonroots": 5, "ordered_disjoint_pairs": 2, "reversal_checks": 0, "separating_triangles": 0, "spoke_edges": 15, "spoke_vertices": 13, "states": 3, "status": "PASS", "triangles": 12, "undirected_groups": 1, "vertices": 8}
+{"black_faces": 8, "bounded_spoke_faces": 5, "c_min": 1, "cyclic_Q_states": 0, "cyclic_Q_states_with_partners": 0, "edges": 24, "first_coefficient": [0, -3], "fixture": "bipyramid_C8", "group_cycle_counts": {"1": 1}, "involution_fixture_coverage": "vacuous", "local_choice_space": 288, "nonroots": 7, "ordered_disjoint_pairs": 2, "reversal_checks": 0, "separating_triangles": 0, "spoke_edges": 21, "spoke_vertices": 17, "states": 4, "status": "PASS", "triangles": 16, "undirected_groups": 1, "vertices": 10}
+{"black_faces": 12, "bounded_spoke_faces": 9, "c_min": 1, "cyclic_Q_states": 0, "cyclic_Q_states_with_partners": 0, "edges": 36, "first_coefficient": [0, -10], "fixture": "coned_cube_14", "group_cycle_counts": {"1": 2}, "involution_fixture_coverage": "vacuous", "local_choice_space": 23328, "nonroots": 11, "ordered_disjoint_pairs": 4, "reversal_checks": 0, "separating_triangles": 0, "spoke_edges": 33, "spoke_vertices": 25, "states": 16, "status": "PASS", "triangles": 24, "undirected_groups": 2, "vertices": 14}
+COMMAND: python3 -m unittest -v test_checker
+test_all_delivered_certificates (test_checker.AuditTests.test_all_delivered_certificates) ... ok
+test_bipyramid_and_cube_graphs_are_the_named_graphs (test_checker.AuditTests.test_bipyramid_and_cube_graphs_are_the_named_graphs) ... ok
+test_bridge_weight_freedom_is_not_a_circulation_error (test_checker.AuditTests.test_bridge_weight_freedom_is_not_a_circulation_error) ... ok
+test_cyclic_rotation_start_and_face_order_irrelevant (test_checker.AuditTests.test_cyclic_rotation_start_and_face_order_irrelevant) ... ok
+test_deterministic_cycle_choice_unit (test_checker.AuditTests.test_deterministic_cycle_choice_unit) ... ok
+test_exact_gaussian_arithmetic_and_negative_powers (test_checker.AuditTests.test_exact_gaussian_arithmetic_and_negative_powers) ... ok
+test_exact_taylor_including_factorial_and_negative_exponent (test_checker.AuditTests.test_exact_taylor_including_factorial_and_negative_exponent) ... ok
+test_fault_injection_delta_sign (test_checker.AuditTests.test_fault_injection_delta_sign) ... ok
+test_fault_injection_j_phase_shift (test_checker.AuditTests.test_fault_injection_j_phase_shift) ... ok
+test_generators_reproduce_literal_inputs (test_checker.AuditTests.test_generators_reproduce_literal_inputs) ... ok
+test_mutation_altered_embedding_sign (test_checker.AuditTests.test_mutation_altered_embedding_sign) ... ok
+test_mutation_altered_incidence (test_checker.AuditTests.test_mutation_altered_incidence) ... ok
+test_mutation_altered_weight (test_checker.AuditTests.test_mutation_altered_weight) ... ok
+test_mutation_asymmetric_edge (test_checker.AuditTests.test_mutation_asymmetric_edge) ... ok
+test_mutation_cycle_gap (test_checker.AuditTests.test_mutation_cycle_gap) ... ok
+test_mutation_deleted_weight (test_checker.AuditTests.test_mutation_deleted_weight) ... ok
+test_mutation_missing_pair (test_checker.AuditTests.test_mutation_missing_pair) ... ok
+test_mutation_nonincident_state (test_checker.AuditTests.test_mutation_nonincident_state) ... ok
+test_mutation_noninteger_weight (test_checker.AuditTests.test_mutation_noninteger_weight) ... ok
+test_mutation_pair_phase (test_checker.AuditTests.test_mutation_pair_phase) ... ok
+test_mutation_reversed_face (test_checker.AuditTests.test_mutation_reversed_face) ... ok
+test_mutation_rotation_transposition (test_checker.AuditTests.test_mutation_rotation_transposition) ... ok
+test_mutation_taylor_denominator (test_checker.AuditTests.test_mutation_taylor_denominator) ... ok
+test_mutation_wrong_face_color (test_checker.AuditTests.test_mutation_wrong_face_color) ... ok
+test_second_state_enumerator_and_q_acyclicity (test_checker.AuditTests.test_second_state_enumerator_and_q_acyclicity) ... ok
+test_size_caps (test_checker.AuditTests.test_size_caps) ... ok
+test_two_cycle_algebra_only_not_a_graph_fixture (test_checker.AuditTests.test_two_cycle_algebra_only_not_a_graph_fixture) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.020s
+
+OK
+PASS: public baseline source/data hashes, four fixtures, 27 tests
+
+EXIT 0

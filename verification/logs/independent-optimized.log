@@ -1,0 +1,6 @@
+$ python3 -O independent_replay.py
+GEOMETRY PASS: exact planar coordinates, 309 edge pairs, oriented faces
+REVERSAL PASS: s=8, complete partners {0,4}, J=-3 <-> -1, omega=4, exact cancellation
+{"Z": {"0": [0, 1], "1": [0, -1], "2": [0, 3], "3": [0, -3]}, "cyclic_Q": 1, "fixture": "octahedron_three_edge_expansion_12", "groups": 2, "leading": "[Fraction(0, 1), Fraction(-4, 1)]", "pairs": 10, "states": 9, "status": "PASS"}
+
+EXIT 0

@@ -1,0 +1,10 @@
+--- checker.py
++++ M01_identity_reversal/checker.py
+@@ -468,6 +468,7 @@
+     twice, rather than checking a separately inlined inverse formula.
+     The caller checks closure, fixed points, the two applications and phase.
+     """
++    return r  # injected identity operation
+     boundary = {edge(*d) for d in darts(cycle)}
+     q = T.q_edges(s)
+     return tuple(next(v for v in T.faces[t] if v not in (r[j], s[j]))

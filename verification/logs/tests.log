@@ -1,0 +1,40 @@
+$ python3 -m unittest -v test_nonvacuous
+test_01_builder_is_exact_declared_fixture (test_nonvacuous.NonvacuousTests.test_01_builder_is_exact_declared_fixture) ... ok
+test_02_primary_semantic_replay (test_nonvacuous.NonvacuousTests.test_02_primary_semantic_replay) ... ok
+test_03_independent_geometry_and_enumeration (test_nonvacuous.NonvacuousTests.test_03_independent_geometry_and_enumeration) ... ok
+test_04_nonvacuous_fiber_and_complete_orbits (test_nonvacuous.NonvacuousTests.test_04_nonvacuous_fiber_and_complete_orbits) ... ok
+test_05_same_operation_is_applied_twice (test_nonvacuous.NonvacuousTests.test_05_same_operation_is_applied_twice) ... ok
+test_06_actual_indices_phases_and_weights (test_nonvacuous.NonvacuousTests.test_06_actual_indices_phases_and_weights) ... ok
+test_07_geometric_three_cycle_orientation_group (test_nonvacuous.NonvacuousTests.test_07_geometric_three_cycle_orientation_group) ... ok
+test_08_global_exact_sum (test_nonvacuous.NonvacuousTests.test_08_global_exact_sum) ... ok
+test_09_assignment_cap_enforced_before_enumeration (test_nonvacuous.NonvacuousTests.test_09_assignment_cap_enforced_before_enumeration) ... ok
+test_10_state_cap_enforced (test_nonvacuous.NonvacuousTests.test_10_state_cap_enforced) ... ok
+test_11_missing_fiber_rejected (test_nonvacuous.NonvacuousTests.test_11_missing_fiber_rejected) ... ok
+test_12_missing_partner_rejected (test_nonvacuous.NonvacuousTests.test_12_missing_partner_rejected) ... ok
+test_13_missing_row_rejected (test_nonvacuous.NonvacuousTests.test_13_missing_row_rejected) ... ok
+test_14_fixed_point_image_rejected (test_nonvacuous.NonvacuousTests.test_14_fixed_point_image_rejected) ... ok
+test_15_nonstate_image_rejected (test_nonvacuous.NonvacuousTests.test_15_nonstate_image_rejected) ... ok
+test_16_wrong_image_id_rejected (test_nonvacuous.NonvacuousTests.test_16_wrong_image_id_rejected) ... ok
+test_17_index_change_corruption_rejected (test_nonvacuous.NonvacuousTests.test_17_index_change_corruption_rejected) ... ok
+test_18_index_value_corruption_rejected (test_nonvacuous.NonvacuousTests.test_18_index_value_corruption_rejected) ... ok
+test_19_phase_corruption_rejected (test_nonvacuous.NonvacuousTests.test_19_phase_corruption_rejected) ... ok
+test_20_weight_corruption_rejected (test_nonvacuous.NonvacuousTests.test_20_weight_corruption_rejected) ... ok
+test_21_second_state_change_rejected (test_nonvacuous.NonvacuousTests.test_21_second_state_change_rejected) ... ok
+test_22_incomplete_orbits_rejected (test_nonvacuous.NonvacuousTests.test_22_incomplete_orbits_rejected) ... ok
+test_23_fixed_state_sum_corruption_rejected (test_nonvacuous.NonvacuousTests.test_23_fixed_state_sum_corruption_rejected) ... ok
+test_24_cycle_changed_using_partner_rejected (test_nonvacuous.NonvacuousTests.test_24_cycle_changed_using_partner_rejected) ... ok
+test_25_disk_sign_corruption_rejected (test_nonvacuous.NonvacuousTests.test_25_disk_sign_corruption_rejected) ... ok
+test_26_incidence_corruption_rejected (test_nonvacuous.NonvacuousTests.test_26_incidence_corruption_rejected) ... ok
+test_27_rotation_corruption_rejected (test_nonvacuous.NonvacuousTests.test_27_rotation_corruption_rejected) ... ok
+test_28_primary_sign_record_corruption_rejected (test_nonvacuous.NonvacuousTests.test_28_primary_sign_record_corruption_rejected) ... ok
+test_29_spoke_weight_corruption_rejected (test_nonvacuous.NonvacuousTests.test_29_spoke_weight_corruption_rejected) ... ok
+test_30_three_cycle_fiber_member_omission_rejected (test_nonvacuous.NonvacuousTests.test_30_three_cycle_fiber_member_omission_rejected) ... ok
+test_31_independent_detects_missing_primary_reversal_records (test_nonvacuous.NonvacuousTests.test_31_independent_detects_missing_primary_reversal_records) ... ok
+test_32_public_baseline_bytes_unchanged (test_nonvacuous.NonvacuousTests.test_32_public_baseline_bytes_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.157s
+
+OK
+
+EXIT 0

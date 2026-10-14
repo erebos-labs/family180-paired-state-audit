@@ -1,0 +1,11 @@
+--- checker.py
++++ M12_omit_reverse_orientations/checker.py
+@@ -571,7 +571,7 @@
+                                   "spoke_cycle": list(detour), "inside_spoke_faces": sorted(spoke_inside)})
+             orientation_assignments.append((c, suppliers))
+         oriented_pairs = set()
+-        for flips in product((False, True), repeat=len(cycles)):
++        for flips in product((False,), repeat=len(cycles)):  # injected missing orientations
+             r, s = [None]*len(T.A), [None]*len(T.A)
+             for flip, (c, ts) in zip(flips, orientation_assignments):
+                 for t, (a, b) in zip(ts, darts(c)):

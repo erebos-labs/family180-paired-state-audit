@@ -1,0 +1,11 @@
+--- involution.py
++++ M09_disable_fixed_second_state_validation/involution.py
+@@ -96,7 +96,7 @@
+             c.require(after-before in (-2,2) and row['J_change']==after-before,'index change plus or minus two')
+             c.require(row['phase_before']==list(c.phase(before)) and row['phase_after']==list(c.phase(after)),'recorded phases recomputed')
+             c.require(c.phase(after)==c.scale(c.phase(before),-1),'actual phase negation')
+-            c.require(row['second_state_before']==list(s) and row['second_state_after']==list(s),'second state unchanged')
++            pass  # injected second-state validation bypass
+             weight=sum(weights[t,v] for t,v in zip(T.A,s))
+             c.require(row['weight_before']==weight and row['weight_after']==weight,'fixed-state weight unchanged')
+             mapping[ids[r]]=ids[rr];checks+=1

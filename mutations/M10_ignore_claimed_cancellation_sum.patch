@@ -1,0 +1,10 @@
+--- involution.py
++++ M10_ignore_claimed_cancellation_sum/involution.py
+@@ -106,6 +106,6 @@
+         c.require(f['orbits']==[list(o) for o in orbits] and all(len(set(o))==2 for o in orbits),'complete two-element orbits')
+         c.require(len(orbits)*2==len(expected_partner_ids),'orbit partition coverage')
+         total=c.exponential_sum([(c.phase(T.index(r,s)),sum(weights[t,v] for t,v in zip(T.A,s))) for r in partners[s]])
+-        c.require(total=={} and f['fixed_state_exponential_sum']==c.serialize_exp(total),'exact fixed-state cancellation')
++        c.require(total=={},'exact fixed-state cancellation')  # injected record bypass
+         orbit_count+=len(orbits)
+     return {'qualifying_fibers':len(qualifying),'partner_rows_checked':checks,'two_element_orbits':orbit_count,'status':'PASS'}

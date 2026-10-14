@@ -1,0 +1,90 @@
+{
+  "atlas_mutants_reproduced": false,
+  "reason": "definitions not supplied",
+  "mutants": [
+    {
+      "id": "M01_identity_reversal",
+      "file": "checker.py",
+      "replace": "    boundary = {edge(*d) for d in darts(cycle)}\n    q = T.q_edges(s)",
+      "with": "    return r  # injected identity operation\n    boundary = {edge(*d) for d in darts(cycle)}\n    q = T.q_edges(s)",
+      "expected_matches": 1
+    },
+    {
+      "id": "M02_skip_all_cyclic_fibers",
+      "file": "checker.py",
+      "replace": "    cyclic_states = [s for s in states if selected_cycle[s] is not None]",
+      "with": "    cyclic_states = []  # injected coverage bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M03_corrupt_index_difference",
+      "file": "checker.py",
+      "replace": "            delta_j = T.index(rr, s) - T.index(r, s)",
+      "with": "            delta_j = 0  # injected corrupt index difference",
+      "expected_matches": 1
+    },
+    {
+      "id": "M04_disable_entire_fiber_validator",
+      "file": "involution.py",
+      "replace": "    c.require(certificate.get('schema')=='family180-reversal-fibers-v1','fiber schema')",
+      "with": "    return {'qualifying_fibers':1,'partner_rows_checked':2,'two_element_orbits':1,'status':'PASS'}\n    c.require(certificate.get('schema')=='family180-reversal-fibers-v1','fiber schema')",
+      "expected_matches": 1
+    },
+    {
+      "id": "M05_disable_phase_record_validation",
+      "file": "involution.py",
+      "replace": "            c.require(row['phase_before']==list(c.phase(before)) and row['phase_after']==list(c.phase(after)),'recorded phases recomputed')",
+      "with": "            pass  # injected phase-record validation bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M06_disable_weight_record_validation",
+      "file": "involution.py",
+      "replace": "            c.require(row['weight_before']==weight and row['weight_after']==weight,'fixed-state weight unchanged')",
+      "with": "            pass  # injected weight-record validation bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M07_disable_index_change_validation",
+      "file": "involution.py",
+      "replace": "            c.require(after-before in (-2,2) and row['J_change']==after-before,'index change plus or minus two')",
+      "with": "            pass  # injected index-change validation bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M08_disable_orbit_record_validation",
+      "file": "involution.py",
+      "replace": "        c.require(f['orbits']==[list(o) for o in orbits] and all(len(set(o))==2 for o in orbits),'complete two-element orbits')",
+      "with": "        pass  # injected orbit-record validation bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M09_disable_fixed_second_state_validation",
+      "file": "involution.py",
+      "replace": "            c.require(row['second_state_before']==list(s) and row['second_state_after']==list(s),'second state unchanged')",
+      "with": "            pass  # injected second-state validation bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M10_ignore_claimed_cancellation_sum",
+      "file": "involution.py",
+      "replace": "        c.require(total=={} and f['fixed_state_exponential_sum']==c.serialize_exp(total),'exact fixed-state cancellation')",
+      "with": "        c.require(total=={},'exact fixed-state cancellation')  # injected record bypass",
+      "expected_matches": 1
+    },
+    {
+      "id": "M11_truncate_cycle_decomposition",
+      "file": "checker.py",
+      "replace": "        cycles = cycle_union(T.X, D)",
+      "with": "        cycles = cycle_union(T.X, D)[:1]  # injected omitted cycles",
+      "expected_matches": 2
+    },
+    {
+      "id": "M12_omit_reverse_orientations",
+      "file": "checker.py",
+      "replace": "        for flips in product((False, True), repeat=len(cycles)):",
+      "with": "        for flips in product((False,), repeat=len(cycles)):  # injected missing orientations",
+      "expected_matches": 1
+    }
+  ]
+}

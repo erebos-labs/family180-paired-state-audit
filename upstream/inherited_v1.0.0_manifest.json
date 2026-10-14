@@ -1,0 +1,115 @@
+{
+  "schema": "family180-upstream-provenance-v1",
+  "session_date": "2026-10-14",
+  "openai_math_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "openai_math_license": "Apache-2.0",
+  "upstream_bytes_bundled": false,
+  "network_downloader_run_successfully": false,
+  "openai_math_files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/LICENSE",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/LICENSE"
+    },
+    {
+      "path": "lean/docs/180.md",
+      "git_blob_sha1": "363c429fd9073e01ef1c9f8380a22520ca2293d8",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/180.md",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/180.md"
+    },
+    {
+      "path": "preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/paper.tex",
+      "git_blob_sha1": "01dd9e0c56b84f77c2051379e1202821bc2164cd",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/paper.tex",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/paper.tex"
+    },
+    {
+      "path": "preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/references.bib",
+      "git_blob_sha1": "4400fb02399e32a19f5cf4af43c2e9f474ce85ac",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/references.bib",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/references.bib"
+    },
+    {
+      "path": "preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/triangle-figure.tex",
+      "git_blob_sha1": "7d55efd803c13f8a823915579ddf927bcf8e8a53",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/triangle-figure.tex",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/build/triangle-figure.tex"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/Main.lean",
+      "git_blob_sha1": "6583fc95fec9859dde830e3f80e56018917eeeb2",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/Main.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/Main.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/TriangleSystem.lean",
+      "git_blob_sha1": "eea928c0019bd2e4b6faf3ab56a9acb39b992bc6",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/TriangleSystem.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/TriangleSystem.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/CycleReversal.lean",
+      "git_blob_sha1": "d39e19f0e53942f7370e91329fd58b158a6eef8b",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/CycleReversal.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/CycleReversal.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/PairPhases.lean",
+      "git_blob_sha1": "edeacc4405c2bf3306ce9727db5c6db53fdc3a18",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/PairPhases.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/PairPhases.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/PairPolynomials.lean",
+      "git_blob_sha1": "9258eee539076415b6b8f47be26a9d3dbe631c1c",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/PairPolynomials.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/PairPolynomials.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/StateDisk.lean",
+      "git_blob_sha1": "d4ae683dbe83786048422f3d23ae067c448f1a50",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/StateDisk.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/StateDisk.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/Circulation.lean",
+      "git_blob_sha1": "241dbd629bb5560801a33a8367889c22f085029b",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/Circulation.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/Circulation.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/ColoredDual.lean",
+      "git_blob_sha1": "f77b4e93b857e041fb9589a12eb3c6de5f449b7a",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/ColoredDual.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/ColoredDual.lean"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Hamiltonian/ExactDual.lean",
+      "git_blob_sha1": "84a403f205f9018d6755f303d7e8c579752b3787",
+      "raw_url": "https://raw.githubusercontent.com/openai/math/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/ExactDual.lean",
+      "view_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Hamiltonian/ExactDual.lean"
+    }
+  ],
+  "derivative_repository": "cjnott1999/barnette-conjecture",
+  "derivative_commit": "97bacb41f06fbecfc4029acc716620d51019318f",
+  "derivative_license": "No license stated; default copyright; no source redistributed",
+  "derivative_files": [
+    {
+      "path": "README.md",
+      "git_blob_sha1": "b33231b34416b048819331e47f549fe58266684a"
+    },
+    {
+      "path": "analysis/c136_signed_sum_independent.py",
+      "git_blob_sha1": "e1d747f75aa348506433ce8985d00450c909e68b"
+    },
+    {
+      "path": "collaboration/opus/opus_work/s11/paired_states_exec.py",
+      "git_blob_sha1": "dc3483b9f87361b8ab91c647588e48380ce377ad"
+    },
+    {
+      "path": "analysis/verify_paired_states_sept24_first_read.md",
+      "git_blob_sha1": "ff67dfb6f31463295375ce9175de602536a1543e"
+    }
+  ]
+}

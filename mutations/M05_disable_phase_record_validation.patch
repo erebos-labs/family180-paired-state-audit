@@ -1,0 +1,11 @@
+--- involution.py
++++ M05_disable_phase_record_validation/involution.py
+@@ -94,7 +94,7 @@
+             before=T.index(r,s);after=T.index(rr,s)
+             c.require(row['J_before']==before and row['J_after']==after,'index values recomputed')
+             c.require(after-before in (-2,2) and row['J_change']==after-before,'index change plus or minus two')
+-            c.require(row['phase_before']==list(c.phase(before)) and row['phase_after']==list(c.phase(after)),'recorded phases recomputed')
++            pass  # injected phase-record validation bypass
+             c.require(c.phase(after)==c.scale(c.phase(before),-1),'actual phase negation')
+             c.require(row['second_state_before']==list(s) and row['second_state_after']==list(s),'second state unchanged')
+             weight=sum(weights[t,v] for t,v in zip(T.A,s))
