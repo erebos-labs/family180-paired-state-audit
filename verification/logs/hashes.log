@@ -1,4 +1,4 @@
 $ python3 verify_hashes.py
-PASS: 63 delivered file hashes verified; run replay.py for semantic validation.
+PASS: 79 delivered file hashes verified; run replay.py for semantic validation.
 
 EXIT 0
